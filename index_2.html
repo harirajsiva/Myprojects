@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CSE Form</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        
+        <script language="JavaScript">
+
+         function showInput() {
+             
+              var head='INFORMATION YOU HAVE ENTERED ';
+        document.getElementById('h').innerHTML = head;
+         var head1='(step 1 0f 7)';
+        document.getElementById('h1').innerHTML = head1;
+        
+        
+             var l="==========================================================================================================================================================================================================================================================================================================================================================";
+         var fname='First Name :';
+        document.getElementById('v').innerHTML = fname;
+        document.getElementById('l').innerHTML = l;
+        document.getElementById('d').innerHTML = document.getElementById("user_input").value;
+         var lname='Last Name :';
+        document.getElementById('v1').innerHTML = lname;
+        document.getElementById('d1').innerHTML =  document.getElementById("last-name").value;
+         var mail='Email_id  :';
+        document.getElementById('v2').innerHTML = mail;        
+        document.getElementById('d2').innerHTML = document.getElementById("email").value;
+         var gender='Gender :';
+        document.getElementById('v3').innerHTML = gender;        
+        document.getElementById('d3').innerHTML = document.getElementById("gender").value;
+        var cname='Cast :';
+        document.getElementById('v4').innerHTML = cname;        
+        document.getElementById('d4').innerHTML = document.getElementById("category1").value;
+         var exman='Are you Ex-Serviceman  :';
+        document.getElementById('v5').innerHTML = exman;        
+        document.getElementById('d5').innerHTML = document.getElementById("exser1").value;
+        
+         var pwd='Are you a Person with Disability (PWD) :';
+        document.getElementById('v6').innerHTML = pwd;        
+        document.getElementById('d6').innerHTML = document.getElementById("epser1").value;
+         var cgov=' Whether working in Central Government and have minimum three years of continuous service :';
+        document.getElementById('v7').innerHTML = cgov;        
+        document.getElementById('d7').innerHTML = document.getElementById("wsper").value;
+         var father='Father Name  :';
+        document.getElementById('v8').innerHTML =father;        
+        document.getElementById('d8').innerHTML = document.getElementById("father1").value;
+        
+        
+            }
+            
+        function step2() 
+        {
+            
+            
+            var head2='(step 2 0f 7)';
+        document.getElementById('h2').innerHTML = head2;
+        
+               var l2="==============================================================================================================================================================================================================================================================================================================================================================================";
+                document.getElementById('l2').innerHTML = l2;
+                var health1='Physically Handicapped Category  :';
+        document.getElementById('v9').innerHTML = health1;
+        document.getElementById('d9').innerHTML = document.getElementById("health").value;
+        var s="Year(s)+";
+        document.getElementById('r').innerHTML = s;
+          var s1="Month(s)";
+        document.getElementById('r1').innerHTML = s1;
+         var service='Length of Service :-';
+        document.getElementById('v10').innerHTML = service;
+        document.getElementById('d10').innerHTML =  document.getElementById("service").value;
+        document.getElementById('d101').innerHTML = document.getElementById("smonth").value;
+      
+        
+         var dob='Date of Birth :';
+        document.getElementById('v11').innerHTML = dob;        
+        document.getElementById('d11').innerHTML = document.getElementById("dob").value;
+        
+         var addr='Address for Correspondence/Communication :';
+        document.getElementById('v12').innerHTML = addr;        
+        document.getElementById('d12').innerHTML = document.getElementById("address").value;
+        
+        var city='City:';
+        document.getElementById('v13').innerHTML = city;        
+        document.getElementById('d13').innerHTML = document.getElementById("c1").value;
+        
+         var state1='state :';
+        document.getElementById('v14').innerHTML = state1;        
+        document.getElementById('d14').innerHTML = document.getElementById("state").value;
+        
+         var pcode='Pincode :';
+        document.getElementById('v15').innerHTML = pcode;        
+        document.getElementById('d15').innerHTML = document.getElementById("pincode").value;
+        
+        var tphone='Telephone No [with STD code] :';
+        document.getElementById('v16').innerHTML = tphone;        
+        document.getElementById('d16').innerHTML = document.getElementById("telephone").value;
+   
+                var station='Nearest Railway Station  :';
+        document.getElementById('v17').innerHTML = station;        
+        document.getElementById('d17').innerHTML = document.getElementById("station1").value;
+             var tcenter=' Written Test Center:';
+        document.getElementById('v18').innerHTML = tcenter;        
+        document.getElementById('d18').innerHTML = document.getElementById("center").value;
+     
+            }
+            
+       function step3()
+       {
+           var head3='(step 3 0f 7)';
+        document.getElementById('h3').innerHTML = head3;
+        
+           
+            var l3="============================================================================================================================================================================================================================================================================================================================================================================================";
+                document.getElementById('l3').innerHTML = l3;
+             var degree='Degree :';
+        document.getElementById('v19').innerHTML = degree;
+        document.getElementById('d19').innerHTML = document.getElementById("degree").value;
+         var branch='branch :';
+        document.getElementById('v20').innerHTML = branch;
+        document.getElementById('d20').innerHTML =  document.getElementById("branch").value;
+         var status='Result status :';
+        document.getElementById('v21').innerHTML = status;        
+        document.getElementById('d21').innerHTML = document.getElementById("status").value;
+        
+           
+       }
+       function step4()
+       {
+           
+           var head4='(step 4 0f 7)';
+        document.getElementById('h4').innerHTML = head4;
+        
+            var l4="==========================================================================================================================================================================================================================================================================================================================================================================================";
+                document.getElementById('l4').innerHTML = l4;
+                 var iname='Institude Name:';
+        document.getElementById('v22').innerHTML = iname;
+        document.getElementById('d22').innerHTML = document.getElementById("iname").value;
+         var ctype='Course Type :';
+        document.getElementById('v23').innerHTML = ctype;
+        document.getElementById('d23').innerHTML =  document.getElementById("ctype").value;
+         var score='Score as :';
+        document.getElementById('v24').innerHTML = score;        
+        document.getElementById('d24').innerHTML = document.getElementById("score").value;
+              var degree='Month and Year of Pass :';
+        document.getElementById('v25').innerHTML = degree;
+        document.getElementById('d25').innerHTML = document.getElementById("pmonth").value;
+        document.getElementById('d251').innerHTML = document.getElementById("pyear").value;
+         var class1='Class/Division Obtained :';
+        document.getElementById('v26').innerHTML = class1;
+        document.getElementById('d26').innerHTML =  document.getElementById("class1").value;
+         var rank='Rank in University :';
+        document.getElementById('v27').innerHTML = rank;        
+        document.getElementById('d27').innerHTML = document.getElementById("rank").value;
+   
+       }
+        function step5()
+        {
+         
+         var head5='(step 5 0f 7)';
+        document.getElementById('h5').innerHTML = head5;
+        
+          var l5="=================================================================================================================================================================================================================================================================================================================================================================================";
+                document.getElementById('l5').innerHTML = l5;
+        var class2='Full Duration of Course :';
+        document.getElementById('v28').innerHTML = class2;
+        document.getElementById('d28').innerHTML =  document.getElementById("duration").value;
+          }
+          
+       function step6()
+       {
+           var head6='(step 6 0f 7)';
+        document.getElementById('h6').innerHTML = head6;
+        
+           var l6="=================================================================================================================================================================================================================================================================================================================================================================================";
+                document.getElementById('l6').innerHTML = l6;
+                   var s1='Semester';
+                  document.getElementById('v29').innerHTML = s1;
+             
+                   var s2='Marks Obtained';
+                  document.getElementById('v30').innerHTML = s2;
+                    var s22='Out of';
+                  document.getElementById('v301').innerHTML = s22;
+                   var s3='Total Marks';
+                  document.getElementById('v31').innerHTML = s3;
+                   var id1='1';
+                  document.getElementById('v32').innerHTML = id1;
+                   var id11='out of';
+                  document.getElementById('v322').innerHTML = id11;
+                  document.getElementById('d32').innerHTML = document.getElementById("m1").value;
+                  document.getElementById('d321').innerHTML = document.getElementById("mt1").value;
+                  
+                   
+                   var id2='2';
+                  document.getElementById('v33').innerHTML = id2;
+                    var id21='out of';
+                  document.getElementById('v332').innerHTML = id21;
+                  document.getElementById('d33').innerHTML = document.getElementById("m2").value;
+                  document.getElementById('d331').innerHTML = document.getElementById("mt2").value;
+                  
+                  var id3='3';
+                  document.getElementById('v34').innerHTML = id3;
+                    var id31='out of';
+                  document.getElementById('v342').innerHTML = id31;
+                  document.getElementById('d34').innerHTML = document.getElementById("m3").value;
+                  document.getElementById('d341').innerHTML = document.getElementById("mt3").value;
+                  
+                     var id4='4';
+                  document.getElementById('v35').innerHTML = id4;
+                    var id41='out of';
+                  document.getElementById('v352').innerHTML = id41;
+                  document.getElementById('d35').innerHTML = document.getElementById("m4").value;
+                  document.getElementById('d351').innerHTML = document.getElementById("mt4").value;
+                     var id5='5';
+                  document.getElementById('v36').innerHTML = id5;
+                    var id51='out of';
+                  document.getElementById('v362').innerHTML = id51;
+                  document.getElementById('d36').innerHTML = document.getElementById("m5").value;
+                  document.getElementById('d361').innerHTML = document.getElementById("mt5").value;
+                     var id6='6';
+                  document.getElementById('v37').innerHTML = id6;
+                    var id61='out of';
+                  document.getElementById('v372').innerHTML = id61;
+                  document.getElementById('d37').innerHTML = document.getElementById("m6").value;
+                  document.getElementById('d371').innerHTML = document.getElementById("mt6").value;
+                     var id7='7';
+                  document.getElementById('v38').innerHTML = id7;
+                    var id71='out of';
+                  document.getElementById('v382').innerHTML = id71;
+                  document.getElementById('d38').innerHTML = document.getElementById("m7").value;
+                  document.getElementById('d381').innerHTML = document.getElementById("mt7").value;
+                     var id8='8';
+                  document.getElementById('v39').innerHTML = id8;
+                    var id81='out of';
+                  document.getElementById('v392').innerHTML = id81;
+                  document.getElementById('d39').innerHTML = document.getElementById("m8").value;
+                  document.getElementById('d391').innerHTML = document.getElementById("mt8").value;
+      
+                 var cl='Intermediate/10+2/Pre-University/Diploma Exam:';
+                 document.getElementById('v40').innerHTML = cl;  
+                 var cl1='Board/University :';
+                 document.getElementById('v41').innerHTML = cl1;
+                 document.getElementById('d41').innerHTML =  document.getElementById("uni").value;
+                 var rank='Month and Year of Pass :';
+                 document.getElementById('v42').innerHTML = rank;        
+                 document.getElementById('d42').innerHTML = document.getElementById("pmonth").value;
+                 document.getElementById('d421').innerHTML = document.getElementById("pyear").value;
+                 var rank='Marks in %:';
+                 document.getElementById('v43').innerHTML = rank;        
+                 document.getElementById('d43').innerHTML = document.getElementById("bmark").value;
+               
+                 
+       }
+   </script>
+   
+   
+   
+   
+    </head>
+
+    <body>
+   		
+		<!-- Top menu -->
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Bootstrap Long Multi-Step Form</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<span class="li-text">
+								Follow us: 
+							</span> 
+							<span class="li-social">
+								<a href="http://www.facebook.com/pages/Azmindcom/196582707093191" target="_blank"><i class="fa fa-facebook"></i></a> 
+								<a href="http://twitter.com/anli_zaimi" target="_blank"><i class="fa fa-twitter"></i></a> 
+								<a href="https://plus.google.com/101131425868807087570" target="_blank"><i class="fa fa-google-plus"></i></a>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+        
+        <!-- Description -->
+		<div class="description-container">
+	        <div class="container">
+	        	<div class="row">
+	                <div class="col-sm-12 description-title">
+	                    <h2>Computer Science Application Form</h2>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-12 description-text">
+	                    
+	                    <div class="divider-1">. . . . . . . . . . . . . . . .</div>
+	                </div>
+	            </div>
+			</div>
+		</div>
+		
+		<!-- Multi Step Form -->
+		<div class="msf-container">
+	        <div class="container">
+	        	<div class="row">
+	                <div class="col-sm-12 msf-title">
+	                    <h3>Fill In The Form</h3>
+	                    <p>Please complete the form below to get instant access to our application and all its features:</p>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-12 msf-form">
+	                    
+	                    <form role="form" name="form1" action="register.jsp" method="post" class="form-inline">
+	                    	             	<fieldset>
+	            				<h4>Introduction <span class="step">(Step 1 / 7)</span></h4>
+	            				<div class="form-group">
+				                    <label for="first-name">First Name:</label><br>
+				                    <input type="text" name="firstname" class="first-name form-control" id="user_input" >
+				                </div>
+				                <div class="form-group">
+				                    <label for="last-name">Last Name:</label><br>
+				                    <input type="text" name="lastname" class="last-name form-control" id="last-name" >
+				                </div>
+				                <div class="form-group">
+				                    <label for="height">Email-Id:</label><br>
+				                    <input type="text" name="height" class="height form-control" id="email" >
+                                    
+				                </div>
+				                <div class="form-group">
+				                    <label for="weight">Re-type E-mail address:</label><br>
+				                    <input type="text" name="retype" class="weight form-control" id="retype"  >
+				                </div>
+                                <div class="selects-1">
+									<p>Gender:</p>
+					                <select class="form-control" name="gender" id="gender">
+					                	<option value="Male">Male</option>
+					                	<option value="Female">Female</option>
+					                	<option value="Other">Other</option>
+					                	
+					                </select>
+								</div>
+                                <div class="selects-2">
+									<p>Cast :</p>
+					                <select class="form-control" name="category" id="category1">
+					                	<option value="General">General</option>
+					                	<option value="Sc">SC</option>
+					                	<option value="ST">ST</option>
+                                        <option value="OBC">OBC</option>
+					                	
+					                </select>
+								</div>
+                                <br />
+                                <div class="radio-buttons-1">
+									<p>Are you Ex-Serviceman:</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="exser" id="exser1" value="Yes">Yes
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="exser" id="exser1"value="No">No
+					                </label>
+					                
+								</div><br />
+                                <div class="radio-buttons-2">
+									<p>Are you a Person with Disability (PWD) :</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="epser" id="epser1"value="Yes">Yes
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="epser"id="epser1" value="No">No
+					                </label>
+					                
+								</div>
+                                <br />
+                                <div class="radio-buttons-3">
+									<p> Whether working in Central Government and have minimum three years of continuous service :</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="wsper" id="wsper" value="Yes">Yes
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="wsper" id="wsper" value="No">No
+					                </label>
+					                
+								</div>
+                                <br />
+
+                                <div class="form-group">
+				                    <label for="father-name">Father's Name :</label><br>
+				                    <input type="text" name="father" id="father1" class="first-name form-control" id="father-name">
+				                </div>
+                                
+	            				<br>
+	            				<button type="button" class="btn btn-next" oninput="check(this)" onclick="showInput();">Next <i class="fa fa-angle-right"></i></button>
+                                </fieldset>
+	            			
+	            			<fieldset>
+	            				<h4>Place and Date of Birth <span class="step">(Step 2 / 7)</span></h4>
+
+                                <div class="selects-2">
+									<p>Physically Handicapped Category :</p>
+					                <select class="form-control" name="health" id="health">
+					                	<option value="NIL">Select Ph Category</option>
+					                	<option value="Hearing Handicapped">Hearing Handicapped</option>
+					                	<option value="Visually Handicapped">Visually Handicapped</option>
+                                                                <option value="Ortopaedically Handicapped">Ortopaedically Handicapped</option>
+					                	
+					                </select>
+                                    </div><br />
+	            				<div class="selects-2">
+									<p> Length of Service :</p>
+					                <select class="form-control" name="service" id="service">
+					                	<OPTION value=0 selected>0</OPTION>
+   		                                <OPTION value=1 >1</OPTION>
+   		                                <OPTION value=2 >2</OPTION>
+   		                                <OPTION value=3 >3</OPTION>
+   		                                <OPTION value=4 >4</OPTION>
+   		                                <OPTION value=5 >5</OPTION>
+   		                                <OPTION value=6 >6</OPTION>
+   		                                <OPTION value=7 >7</OPTION>
+   		                                <OPTION value=8 >8</OPTION>
+   		                                <OPTION value=9 >9</OPTION>
+   		                                <OPTION value=10 >10</OPTION>
+   		                                <OPTION value=11 >11</OPTION>
+   		                                <OPTION value=12 >12</OPTION>
+   		                                <OPTION value=13 >13</OPTION>
+   		                                <OPTION value=14 >14</OPTION>
+   		                                <OPTION value=15 >15</OPTION>
+   		                                <OPTION value=16 >16</OPTION>
+   		                                <OPTION value=17 >17</OPTION>
+   		                                <OPTION value=18 >18</OPTION>
+   		                                <OPTION value=19 >19</OPTION>
+   		                                <OPTION value=20 >20</OPTION>
+		                                </SELECT> Year(s) + 
+
+	            				</div>
+                                    <div class="selects-2">
+                                    <select name="Smonth"  id="smonth" class="form-control" >
+		                            <OPTION value=0 selected>0</OPTION>
+		                            <OPTION value=1 >1</OPTION>
+		                            <OPTION value=2 >2</OPTION>
+		                            <OPTION value=3 >3</OPTION>
+		                            <OPTION value=4 >4</OPTION>
+		                            <OPTION value=5 >5</OPTION>
+		                            <OPTION value=6 >6</OPTION>
+		                            <OPTION value=7 >7</OPTION>
+		                            <OPTION value=8 >8</OPTION>
+		                            <OPTION value=9 >9</OPTION>
+		                            <OPTION value=10 >10</OPTION>
+		                            <OPTION value=11 >11</OPTION>
+		                            </SELECT> Month(s)
+                                            </div><br />
+                                <div class="form-group">
+				                    <label for="birth-date">Date of Birth (YYYY/MM/DD):</label><br>
+				                    <input type="text" name="birth-date" id="dob" class="birth-date form-control" id="birth-date">
+				                </div><br />
+				                <div class="form-group">
+				                    <label for="birth-state"> Address for Correspondence/Communication :</label><br>
+				                   
+                                    <textarea class="birth-state form-control" rows="4" cols="50" name="address" id="address" >
+Enter text here...</textarea>
+				                </div><br />
+                                <div class="form-group">
+				                    <label for="city-name">City :</label><br>
+				                    <input type="text" name="cname" id="c1" class="first-name form-control" id="city-name">
+				                </div>
+                                <div class="form-group">
+				                    <label for="state-name">State :</label><br>
+				                    <input type="text" name="sname" id="state"class="first-name form-control">
+				                </div>
+				                <div class="form-group">
+				                    <label for="pincode">Pincode :</label><br>
+				                    <input type="text" name="pincode"  id="pincode" class="birth-country form-control">
+
+				                </div>
+
+                                <div class="form-group">
+				                    <label for="telephone"> Telephone No [with STD code] :</label><br>
+				                    <input type="text" name="telephone" id="telephone" class="birth-date form-control">
+				                </div>
+                                <div class="form-group">
+				                    <label for="station"> Nearest Railway Station :</label><br>
+				                    <input type="text" name="station" class="birth-date form-control"id="station1">
+				                </div><br />
+
+                                <div class="selects-2">
+									<p>Written Test Center :</p>
+					                <select class="form-control" name="center" id="center">
+			       	     <OPTION VALUE="Examcenter" selected >Select Exam Center</OPTION>
+ 				    <OPTION VALUE="Ahmedabad"  >Ahmedabad</OPTION>
+                                    <OPTION VALUE="Bengaluru"  >Bengaluru</OPTION>
+                                    <OPTION VALUE="Bhopal"  >Bhopal</OPTION>
+				    <OPTION VALUE="Chandigarh"  >Chandigarh</OPTION>
+                                    <OPTION VALUE="Chennai"  >Chennai</OPTION>
+                                    <OPTION VALUE="Guwahati"  >Guwahati</OPTION>
+				    <OPTION VALUE="Hyderabad"  >Hyderabad</OPTION>
+                                    <OPTION VALUE="Kolkata"  >Kolkata</OPTION>
+				    <OPTION VALUE="Lucknow"  >Lucknow</OPTION>
+				    <OPTION VALUE="Mumbai"  >Mumbai</OPTION>
+                                    <OPTION VALUE="New Delhi" >New Delhi</OPTION>
+				    <OPTION VALUE="Thiruvananthapuram"  >Thiruvananthapuram</OPTION>
+					                	
+					                </select>
+                                    </div>
+				                
+	            				<br>
+	            				<button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+	            				<button type="button" class="btn btn-next" onclick="step2();">Next <i class="fa fa-angle-right"></i></button>
+	            			</fieldset>
+
+                        <fieldset>
+	            				<h4>Qualifying Exam<span class="step">   (Step 3 / 7)</span></h4>
+                                (<Font color=#fff><I>Note : If you have obtained exemption of paper/semester/year due to Diploma/BSc leading 
+        to lateral entry into Degree Course, please select </I><b>Degree </B><I> as Diploma+BE/BTech or BSc+BE/BTech.</I></font>)<br /><br />
+
+                                  <div class="selects-3">
+									<p>Degree :</p>
+					                <select class="form-control" name="degree" id="degree">
+					                	  <OPTION value="BE" >BE</OPTION>
+		
+		                                     <OPTION value="BTech" >BTech</OPTION>
+            		
+		                                      <OPTION value="BSc(Engg)" >BSc(Engg)</OPTION>
+		
+                                		      <OPTION value="Diploma+BE/BTech" >Diploma+BE/BTech(Lateral Entry)</OPTION>
+		
+		                                        <OPTION value="BSc+BE/BTech" >BSc+BE/BTech(Lateral Entry)</OPTION>
+		
+		                                        <OPTION value="Diploma+AMIE/GradIETE" >Diploma+AMIE/GradIETE</OPTION>
+		
+		                                        <OPTION value="BSc+AMIE/GradIETE" >BSc+AMIE/GradIETE</OPTION>
+					                	
+					                </select>
+                                    </div>
+
+                                <div class="selects-3">
+									<p>Branch :</p>
+					                <select class="form-control" name="branch" id="branch">
+					                	   <OPTION value="COMPUTER" >COMPUTER</OPTION>
+			                                <OPTION value="COMPUTER SCIENCE" >COMPUTER SCIENCE</OPTION>
+					                	
+					                </select>
+                                    </div>
+
+                                 <div class="radio-buttons-2">
+									<p> Result Status :</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="status" id="status" value="Declared">Declared
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="status" id="status"value="Awaited">Awaited
+					                </label>
+					                
+								</div>
+				                
+	            				
+	            				<br>
+	            				<button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+                                                <button type="button" class="btn btn-next" onclick="step3();">Next <i class="fa fa-angle-right"></i></button>
+	            			</fieldset>
+	                    	
+	                    	<fieldset>
+	            				<h4>Social Media Profiles <span class="step">(Step 4 / 7)</span></h4>
+
+
+                                <div class="form-group">
+				                    <label for="institute-name">Institute Name :</label><br>
+				                    <input type="text" name="institute" class="birth-date form-control" id="iname">
+				                </div>
+
+                                 <div class="selects-4">
+									<p>University :</p>
+					                <select class="form-control" name="university">
+					                	 <option VALUE="Select University" selected >Select University</option>
+				
+				          <OPTION VALUE="Aacharya Nagarjuna University, Guntur, Andhra Pradesh" >Aacharya Nagarjuna University, Guntur, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Aaryabhatta Knowledge University, Patna, Bihar" >Aaryabhatta Knowledge University, Patna, Bihar</OPTION>
+				
+				          <OPTION VALUE="Adikavi Nannaya University, Rajahmundry, Andhra Pradesh" >Adikavi Nannaya University, Rajahmundry, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Aisect University, Bhopal, Madhya Pradesh" >Aisect University, Bhopal, Madhya Pradesh</OPTION>
+				
+				          <OPTION VALUE="Alagappa University, Alagappa Nagar, Karaikudi" >Alagappa University, Alagappa Nagar, Karaikudi</OPTION>
+				
+				          <OPTION VALUE="Aliah University, Kolkata, West Bengal" >Aliah University, Kolkata, West Bengal</OPTION>
+				
+				          <OPTION VALUE="Aligarh Muslim University, Aligarh (Central University)" >Aligarh Muslim University, Aligarh (Central University)</OPTION>
+				
+				          <OPTION VALUE="Allahabad University, Allahabad" >Allahabad University, Allahabad</OPTION>
+				
+				          <OPTION VALUE="Amity University, Haryana" >Amity University, Haryana</OPTION>
+				
+				          <OPTION VALUE="Amity University, Jaipur, Rajasthan" >Amity University, Jaipur, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Amravati University, Amravati" >Amravati University, Amravati</OPTION>
+				
+				          <OPTION VALUE="Amrita Vishwa Vidyapeetham, Coimbatore" >Amrita Vishwa Vidyapeetham, Coimbatore</OPTION>
+				
+				          <OPTION VALUE="Anand Agricultural University, Anand, Gujarat" >Anand Agricultural University, Anand, Gujarat</OPTION>
+				
+				          <OPTION VALUE="Andhra University, Visakhapatnam" >Andhra University, Visakhapatnam</OPTION>
+				
+				          <OPTION VALUE="Annamalai University, Annamalainagar" >Annamalai University, Annamalainagar</OPTION>
+				
+				          <OPTION VALUE="Anna University, Guindy, Chennai" >Anna University, Guindy, Chennai</OPTION>
+				
+				          <OPTION VALUE="Apeejay Stya University, Gurgaon, Haryana" >Apeejay Stya University, Gurgaon, Haryana</OPTION>
+				
+				          <OPTION VALUE="Arni University, Himachal Pradesh" >Arni University, Himachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Arunachal University, Itanagar" >Arunachal University, Itanagar</OPTION>
+				
+				          <OPTION VALUE="Assam Don Bosco University, Guwahati, Arunachal Pradesh" >Assam Don Bosco University, Guwahati, Arunachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Assam University, Silchar (Central University)" >Assam University, Silchar (Central University)</OPTION>
+				
+				          <OPTION VALUE="Avinashilingam Deemed University, Coimbatore" >Avinashilingam Deemed University, Coimbatore</OPTION>
+				
+				          <OPTION VALUE="Awadesh Pratap Singh University, Rewa" >Awadesh Pratap Singh University, Rewa</OPTION>
+				
+				          <OPTION VALUE="Baba Ghulam Shah Badshah University, Rajouri, Jammu" >Baba Ghulam Shah Badshah University, Rajouri, Jammu</OPTION>
+				
+				          <OPTION VALUE="Baba Saheb Ambedkar Marathwada University, Aurangabad, Maharashtra" >Baba Saheb Ambedkar Marathwada University, Aurangabad, Maharashtra</OPTION>
+				
+				          <OPTION VALUE="Babasaheb Bhimrao Ambedkar Bihar University, Muzaffarpur" >Babasaheb Bhimrao Ambedkar Bihar University, Muzaffarpur</OPTION>
+				
+				          <OPTION VALUE="Babasaheb Bhimrao Ambedkar University, Lucknow (Central University)" >Babasaheb Bhimrao Ambedkar University, Lucknow (Central University)</OPTION>
+				
+				          <OPTION VALUE="Babu Banarasi Das University, Lucknow, Uttar Pradesh" >Babu Banarasi Das University, Lucknow, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Baddi University of Emerging Sciences and Technology, Baddi, Himachal Pradesh" >Baddi University of Emerging Sciences and Technology, Baddi, Himachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Bahra University, Himachal Pradesh" >Bahra University, Himachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Banaras Hindu University, Varanasi (Central University)" >Banaras Hindu University, Varanasi (Central University)</OPTION>
+				
+				          <OPTION VALUE="Banasthali  Vidyapith, Banasthali" >Banasthali  Vidyapith, Banasthali</OPTION>
+				
+				          <OPTION VALUE="Bangalore  University, Bangalore" >Bangalore  University, Bangalore</OPTION>
+				
+				          <OPTION VALUE="Barkatullah University, Bhopal" >Barkatullah University, Bhopal</OPTION>
+				
+				          <OPTION VALUE="B.E.College(Deemed University), Shibpore, Howrah" >B.E.College(Deemed University), Shibpore, Howrah</OPTION>
+				
+				          <OPTION VALUE="Bengal Engineering College, Howrah" >Bengal Engineering College, Howrah</OPTION>
+				
+				          <OPTION VALUE="Berhampur University, Berhampur" >Berhampur University, Berhampur</OPTION>
+				
+				          <OPTION VALUE="Bhagat Phool Singh Mahila Vishwavidalaya, Sonipat, Haryana" >Bhagat Phool Singh Mahila Vishwavidalaya, Sonipat, Haryana</OPTION>
+				
+				          <OPTION VALUE="Bhagwant University, Ajmer, Rajasthan" >Bhagwant University, Ajmer, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Bharathiar University, Coimbatore" >Bharathiar University, Coimbatore</OPTION>
+				
+				          <OPTION VALUE="Bharathidasan University, Tiruchirappalli" >Bharathidasan University, Tiruchirappalli</OPTION>
+				
+				          <OPTION VALUE="Bharath Institute of Higher Education and Research, Chennai" >Bharath Institute of Higher Education and Research, Chennai</OPTION>
+				
+				          <OPTION VALUE="Bharati Vidyapeeth Deemed University, Pune" >Bharati Vidyapeeth Deemed University, Pune</OPTION>
+				
+				          <OPTION VALUE="Bhavnagar University, Bhavnagar" >Bhavnagar University, Bhavnagar</OPTION>
+				
+				          <OPTION VALUE="Bhupendra Narayan Mandal University, Madhepura" >Bhupendra Narayan Mandal University, Madhepura</OPTION>
+				
+				          <OPTION VALUE="Biju Patnaik University of Technology, Rourkela" >Biju Patnaik University of Technology, Rourkela</OPTION>
+				
+				          <OPTION VALUE="Birla Institute of Technology and Science, Pilani" >Birla Institute of Technology and Science, Pilani</OPTION>
+				
+				          <OPTION VALUE="Birla Institute of Technology, Mesra, Ranchi" >Birla Institute of Technology, Mesra, Ranchi</OPTION>
+				
+				          <OPTION VALUE="B S Abdur Rahman Institute of Science and Technology, Chennai, Tamil Nadu" >B S Abdur Rahman Institute of Science and Technology, Chennai, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="Bundelkhand University, Jhansi" >Bundelkhand University, Jhansi</OPTION>
+				
+				          <OPTION VALUE="Burdwan University, Rajbati, Burdwan" >Burdwan University, Rajbati, Burdwan</OPTION>
+				
+				          <OPTION VALUE="Calcutta University, Kolkata" >Calcutta University, Kolkata</OPTION>
+				
+				          <OPTION VALUE="Calicut University, Kozhikode" >Calicut University, Kozhikode</OPTION>
+				
+				          <OPTION VALUE="CCS Haryana Agricultural University, Hisar" >CCS Haryana Agricultural University, Hisar</OPTION>
+				
+				          <OPTION VALUE="Center for Environmental Planning and Technology, Ahmedabad, Gujarat" >Center for Environmental Planning and Technology, Ahmedabad, Gujarat</OPTION>
+				
+				          <OPTION VALUE="Centurion University of Technology and Management, Orissa" >Centurion University of Technology and Management, Orissa</OPTION>
+				
+				          <OPTION VALUE="Chandigarh University, Mohali, Punjab" >Chandigarh University, Mohali, Punjab</OPTION>
+				
+				          <OPTION VALUE="Chandra Shekhar Azad University of Agriculture and Technology, Kanpur" >Chandra Shekhar Azad University of Agriculture and Technology, Kanpur</OPTION>
+				
+				          <OPTION VALUE="Charotar Institute of Science and Technology, Changa, Gujarat" >Charotar Institute of Science and Technology, Changa, Gujarat</OPTION>
+				
+				          <OPTION VALUE="Chatrapati Sahuji Maharaj Kanpur University, Kanpur" >Chatrapati Sahuji Maharaj Kanpur University, Kanpur</OPTION>
+				
+				          <OPTION VALUE="Chattisgarh State Swami Vivekanand Technical University Bhilai, Chattisgarh" >Chattisgarh State Swami Vivekanand Technical University Bhilai, Chattisgarh</OPTION>
+				
+				          <OPTION VALUE="Chaudhary Devi Lal University, Sirsa" >Chaudhary Devi Lal University, Sirsa</OPTION>
+				
+				          <OPTION VALUE="Chhattisgarh Swami Vivekanand Technical University, Bhilai" >Chhattisgarh Swami Vivekanand Technical University, Bhilai</OPTION>
+				
+				          <OPTION VALUE="Chitkara University, Himachal Pradesh" >Chitkara University, Himachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Choudhary Charan Singh University, Meerut" >Choudhary Charan Singh University, Meerut</OPTION>
+				
+				          <OPTION VALUE="Christ College, Hosur, Bangalore" >Christ College, Hosur, Bangalore</OPTION>
+				
+				          <OPTION VALUE="Cmj University College, Shillong, Meghalaya" >Cmj University College, Shillong, Meghalaya</OPTION>
+				
+				          <OPTION VALUE="Cochin University of Science and Technology, Kochi" >Cochin University of Science and Technology, Kochi</OPTION>
+				
+				          <OPTION VALUE="C U Shah University, Surendranagar, Gujarat" >C U Shah University, Surendranagar, Gujarat</OPTION>
+				
+				          <OPTION VALUE="C U Shah University, Surendranagar, Gujarat" >C U Shah University, Surendranagar, Gujarat</OPTION>
+				
+				          <OPTION VALUE="D. Ambani Institute of Information and Communication Technolgy" >D. Ambani Institute of Information and Communication Technolgy</OPTION>
+				
+				          <OPTION VALUE="D.A.V. University, Jalandhar, Punjab" >D.A.V. University, Jalandhar, Punjab</OPTION>
+				
+				          <OPTION VALUE="Dayalbagh Educational Institute, Agra" >Dayalbagh Educational Institute, Agra</OPTION>
+				
+				          <OPTION VALUE="Deccan  College Post-Graduate and Research Institute, Pune" >Deccan  College Post-Graduate and Research Institute, Pune</OPTION>
+				
+				          <OPTION VALUE="Deenbandhu Chhotu Ram University of Science and Technology, Murthal, Haryana" >Deenbandhu Chhotu Ram University of Science and Technology, Murthal, Haryana</OPTION>
+				
+				          <OPTION VALUE="Deen Dayal Upadhyay Gorakhpur University, Gorakhpur" >Deen Dayal Upadhyay Gorakhpur University, Gorakhpur</OPTION>
+				
+				          <OPTION VALUE="Delhi Technological University, Delhi" >Delhi Technological University, Delhi</OPTION>
+				
+				          <OPTION VALUE="Delhi University, Delhi (Central University)" >Delhi University, Delhi (Central University)</OPTION>
+				
+				          <OPTION VALUE="Devi Ahilya Vishwavidyalaya, Indore" >Devi Ahilya Vishwavidyalaya, Indore</OPTION>
+				
+				          <OPTION VALUE="Dharamsinh Desai Institute of Technology, Nadiad" >Dharamsinh Desai Institute of Technology, Nadiad</OPTION>
+				
+				          <OPTION VALUE="Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, Gujarat" >Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, Gujarat</OPTION>
+				
+				          <OPTION VALUE="Dibrugarh University, Dibrugarh" >Dibrugarh University, Dibrugarh</OPTION>
+				
+				          <OPTION VALUE="Dnyaneshwar Vidyapeeth, Pune" >Dnyaneshwar Vidyapeeth, Pune</OPTION>
+				
+				          <OPTION VALUE="Dravidian University, Kuppam" >Dravidian University, Kuppam</OPTION>
+				
+				          <OPTION VALUE="Dr. Babasaheb Ambedkar Marathwada University, Aurangabad" >Dr. Babasaheb Ambedkar Marathwada University, Aurangabad</OPTION>
+				
+				          <OPTION VALUE="Dr. Babasaheb Ambedkar Open University, Ahmedabad" >Dr. Babasaheb Ambedkar Open University, Ahmedabad</OPTION>
+				
+				          <OPTION VALUE="Dr. Babasaheb Ambedkar Technological University, Lonere" >Dr. Babasaheb Ambedkar Technological University, Lonere</OPTION>
+				
+				          <OPTION VALUE="Dr. Bhim Rao Ambedkar University, Agra, Uttar Pradesh" >Dr. Bhim Rao Ambedkar University, Agra, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Dr. B.R. Ambedkar National Institute of Technology, (REC), Jalandhar" >Dr. B.R. Ambedkar National Institute of Technology, (REC), Jalandhar</OPTION>
+				
+				          <OPTION VALUE="Dr. B.R. Ambedkar Open University, Jubilee Hills, Hyderabad" >Dr. B.R. Ambedkar Open University, Jubilee Hills, Hyderabad</OPTION>
+				
+				          <OPTION VALUE="Dr. B.R. Ambedkar University, Agra" >Dr. B.R. Ambedkar University, Agra</OPTION>
+				
+				          <OPTION VALUE="Dr. C V Raman University, Kargi Road Kota, Bilaspur, Chattisgarh" >Dr. C V Raman University, Kargi Road Kota, Bilaspur, Chattisgarh</OPTION>
+				
+				          <OPTION VALUE="Dr. D.Y. Patil Vidyapeeth, Pimpri, Pune" >Dr. D.Y. Patil Vidyapeeth, Pimpri, Pune</OPTION>
+				
+				          <OPTION VALUE="Dr Hari Singh Gour Vishwavidyalaya, Sagar" >Dr Hari Singh Gour Vishwavidyalaya, Sagar</OPTION>
+				
+				          <OPTION VALUE="Dr. K. N. Modi University, Rajasthan" >Dr. K. N. Modi University, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Dr. M G R Educational and Research Institute, Chennai" >Dr. M G R Educational and Research Institute, Chennai</OPTION>
+				
+				          <OPTION VALUE="Dr Ram Manohar Lohia Awadh University, Faizabad" >Dr Ram Manohar Lohia Awadh University, Faizabad</OPTION>
+				
+				          <OPTION VALUE="Eternal University , Baru Sahib, Himachal Pradesh" >Eternal University , Baru Sahib, Himachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Fakir Mohan University, Balasore" >Fakir Mohan University, Balasore</OPTION>
+				
+				          <OPTION VALUE="Ganapat University, Mehsana, Gujarat" >Ganapat University, Mehsana, Gujarat</OPTION>
+				
+				          <OPTION VALUE="Gandhi Institute of Technology and Management University(Gitam), Vishakapatnam, Andhra Pradesh" >Gandhi Institute of Technology and Management University(Gitam), Vishakapatnam, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Gandhiram Rural Institute, Gandhigram, Tamil Nadu" >Gandhiram Rural Institute, Gandhigram, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="Gauhati University, Guwahati" >Gauhati University, Guwahati</OPTION>
+				
+				          <OPTION VALUE="Gautam Buddha Technical University , Lucknow, Uttar Pradesh" >Gautam Buddha Technical University , Lucknow, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Gautam Buddha University , Greater Noida, Uttar Pradesh" >Gautam Buddha University , Greater Noida, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="G.B. Pant University of Argriculture and Technology, Pantnagar" >G.B. Pant University of Argriculture and Technology, Pantnagar</OPTION>
+				
+				          <OPTION VALUE="G.L.A University Mathura, Uttar Pradesh" >G.L.A University Mathura, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Goa University, Goa" >Goa University, Goa</OPTION>
+				
+				          <OPTION VALUE="Graphic Era University, Dehradun, Uttarakhand" >Graphic Era University, Dehradun, Uttarakhand</OPTION>
+				
+				          <OPTION VALUE="Gujarat  Technological University, Ahmedabad, Gujarat" >Gujarat  Technological University, Ahmedabad, Gujarat</OPTION>
+				
+				          <OPTION VALUE="Gujarat University, Ahmedabad" >Gujarat University, Ahmedabad</OPTION>
+				
+				          <OPTION VALUE="Gujarat Vidyapith, Ahmedabad" >Gujarat Vidyapith, Ahmedabad</OPTION>
+				
+				          <OPTION VALUE="Gulbarga University, Gulbarga" >Gulbarga University, Gulbarga</OPTION>
+				
+				          <OPTION VALUE="Guru Ghasidas Vishwavidyalaya, Bilaspur" >Guru Ghasidas Vishwavidyalaya, Bilaspur</OPTION>
+				
+				          <OPTION VALUE="Guru Gobind Singh Indraprastha Vishwavidyalaya, Kashmere Gate, Delhi" >Guru Gobind Singh Indraprastha Vishwavidyalaya, Kashmere Gate, Delhi</OPTION>
+				
+				          <OPTION VALUE="Guru Jhambeshwar University, Hisar," >Guru Jhambeshwar University, Hisar,</OPTION>
+				
+				          <OPTION VALUE="Gurukul Kangri Vishwavidyalaya, Hardwar" >Gurukul Kangri Vishwavidyalaya, Hardwar</OPTION>
+				
+				          <OPTION VALUE="Guru Nanak Dev University, Amritsar" >Guru Nanak Dev University, Amritsar</OPTION>
+				
+				          <OPTION VALUE="Hamdard University" >Hamdard University</OPTION>
+				
+				          <OPTION VALUE="Hemchandracharya North Gujarat University, Patan" >Hemchandracharya North Gujarat University, Patan</OPTION>
+				
+				          <OPTION VALUE="Hemwati Nandan Bahuguna Garhwal University, Srinagar, Uttarakhand" >Hemwati Nandan Bahuguna Garhwal University, Srinagar, Uttarakhand</OPTION>
+				
+				          <OPTION VALUE="Himachal Pradesh Technical University, Hamirpur, Himachal Pradesh" >Himachal Pradesh Technical University, Hamirpur, Himachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Himachal Pradesh University, Shimla" >Himachal Pradesh University, Shimla</OPTION>
+				
+				          <OPTION VALUE="Hindustan Institute of Technology and Science, Tamil Nadu" >Hindustan Institute of Technology and Science, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="H.N. Bahuguna Garhwal University, Srinagar" >H.N. Bahuguna Garhwal University, Srinagar</OPTION>
+				
+				          <OPTION VALUE="Hyderabad University, Hyderabad (Central University)" >Hyderabad University, Hyderabad (Central University)</OPTION>
+				
+				          <OPTION VALUE="Icfai Foundation for Higher Education, Hyderabad, Andhra Pradesh" >Icfai Foundation for Higher Education, Hyderabad, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Icfai Univerity, Durg, Chattisgarh" >Icfai Univerity, Durg, Chattisgarh</OPTION>
+				
+				          <OPTION VALUE="Iftm University, Moradabad, Uttar Pradesh" >Iftm University, Moradabad, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Information Technology, Allahabad." >Indian Institute of Information Technology, Allahabad.</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Information Technology and Management, Gwalior" >Indian Institute of Information Technology and Management, Gwalior</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Science, Bangalore" >Indian Institute of Science, Bangalore</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Space Science and Technology, Thirunavanthapuram, Kerala" >Indian Institute of Space Science and Technology, Thirunavanthapuram, Kerala</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Technology, Chennai" >Indian Institute of Technology, Chennai</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Technology, Hauz Khas, New Delhi" >Indian Institute of Technology, Hauz Khas, New Delhi</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Technology, Institution of Engineers Building, Guwahati" >Indian Institute of Technology, Institution of Engineers Building, Guwahati</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Technology, Kanpur" >Indian Institute of Technology, Kanpur</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Technology, Kharagpur" >Indian Institute of Technology, Kharagpur</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Technology, Powai, Mumbai" >Indian Institute of Technology, Powai, Mumbai</OPTION>
+				
+				          <OPTION VALUE="Indian Institute of Technology, Roorkee" >Indian Institute of Technology, Roorkee</OPTION>
+				
+				          <OPTION VALUE="Indian Maritime University, Chennai, Tamil Nadu" >Indian Maritime University, Chennai, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="Indian School of Mines, Dhanbad" >Indian School of Mines, Dhanbad</OPTION>
+				
+				          <OPTION VALUE="Indira Gandhi Delhi Technical University for Women, Kashmere Gate, Delhi" >Indira Gandhi Delhi Technical University for Women, Kashmere Gate, Delhi</OPTION>
+				
+				          <OPTION VALUE="Indira Gandhi National Open University, New Delhi (Central University)" >Indira Gandhi National Open University, New Delhi (Central University)</OPTION>
+				
+				          <OPTION VALUE="Indraprastha Institute of Information Technology, Delhi" >Indraprastha Institute of Information Technology, Delhi</OPTION>
+				
+				          <OPTION VALUE="Indus International University, Una, Himachal Pradesh" >Indus International University, Una, Himachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Institute of Advanced Studies in Education(Deemed University), Rajasthan" >Institute of Advanced Studies in Education(Deemed University), Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Institute of Armament Technology, Pune" >Institute of Armament Technology, Pune</OPTION>
+				
+				          <OPTION VALUE="Institute of Chartered Financial Analysts of India (icfai), Agartala, Tripura" >Institute of Chartered Financial Analysts of India (icfai), Agartala, Tripura</OPTION>
+				
+				          <OPTION VALUE="Institute of Chartered Financial Analysts of India (icfai), Dehradun, Uttarakhand" >Institute of Chartered Financial Analysts of India (icfai), Dehradun, Uttarakhand</OPTION>
+				
+				          <OPTION VALUE="Institute of Technology and Management University, Gurgaon" >Institute of Technology and Management University, Gurgaon</OPTION>
+				
+				          <OPTION VALUE="Institution of Mechanical Engineers (India)" >Institution of Mechanical Engineers (India)</OPTION>
+				
+				          <OPTION VALUE="Integral University, Lucknow, Uttar Pradesh" >Integral University, Lucknow, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="International Institute of Information and Technology, Hyderabad, Andhra Pradesh" >International Institute of Information and Technology, Hyderabad, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="International Institute of Information Technology, Hyderabad" >International Institute of Information Technology, Hyderabad</OPTION>
+				
+				          <OPTION VALUE="Invertis University, Bareilly, Uttar Pradesh" >Invertis University, Bareilly, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Islamic University  of Science  and Technology, Pulwama, Jammu and Kashmir" >Islamic University  of Science  and Technology, Pulwama, Jammu and Kashmir</OPTION>
+				
+				          <OPTION VALUE="I.T.M University, Raipur, Chattisgarh" >I.T.M University, Raipur, Chattisgarh</OPTION>
+				
+				          <OPTION VALUE="Jadavpur University, Calcutta" >Jadavpur University, Calcutta</OPTION>
+				
+				          <OPTION VALUE="Jagadguru Rambhadracharya Handicapped University, Chitrakoot Dham" >Jagadguru Rambhadracharya Handicapped University, Chitrakoot Dham</OPTION>
+				
+				          <OPTION VALUE="Jagannath University, Jaipur, Rajasthan" >Jagannath University, Jaipur, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Jai Narain Vyas University, Jodhpur" >Jai Narain Vyas University, Jodhpur</OPTION>
+				
+				          <OPTION VALUE="Jain University, Bangalore, Karnataka" >Jain University, Bangalore, Karnataka</OPTION>
+				
+				          <OPTION VALUE="Jain Vishva Bharati Institute, Ladnun" >Jain Vishva Bharati Institute, Ladnun</OPTION>
+				
+				          <OPTION VALUE="Jai Prakash Narian University, Chhapra" >Jai Prakash Narian University, Chhapra</OPTION>
+				
+				          <OPTION VALUE="Jaipur National University, Jaipur, Rajasthan" >Jaipur National University, Jaipur, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Jamia Hamdard, New Delhi" >Jamia Hamdard, New Delhi</OPTION>
+				
+				          <OPTION VALUE="Jamia Mallia Islamia University, New Delhi (Central University)" >Jamia Mallia Islamia University, New Delhi (Central University)</OPTION>
+				
+				          <OPTION VALUE="Jammu University, Jammu Tawi" >Jammu University, Jammu Tawi</OPTION>
+				
+				          <OPTION VALUE="Janardan Rai Nagar Rajasthan Vidyapeeth, Udaipur" >Janardan Rai Nagar Rajasthan Vidyapeeth, Udaipur</OPTION>
+				
+				          <OPTION VALUE="Japee University of Engineering and Technology, Raghogarh, Madhya Pradesh" >Japee University of Engineering and Technology, Raghogarh, Madhya Pradesh</OPTION>
+				
+				          <OPTION VALUE="Jawaharlal Nehru Technological University, Anantpur, Andhra Pradesh" >Jawaharlal Nehru Technological University, Anantpur, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Jawaharlal Nehru Technological University, Hyderabad" >Jawaharlal Nehru Technological University, Hyderabad</OPTION>
+				
+				          <OPTION VALUE="Jawaharlal Nehru Technological University, Kakinada, Andhra Pradesh" >Jawaharlal Nehru Technological University, Kakinada, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Jawaharlal Nehru University, New Delhi (Central University)" >Jawaharlal Nehru University, New Delhi (Central University)</OPTION>
+				
+				          <OPTION VALUE="Jayoti Vidyapeeth Womens University, Jaipur, Rajasthan" >Jayoti Vidyapeeth Womens University, Jaipur, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Jaypee Institute of Information Technology, Noida" >Jaypee Institute of Information Technology, Noida</OPTION>
+				
+				          <OPTION VALUE="Jaypee University of Information Technology, District-Solan" >Jaypee University of Information Technology, District-Solan</OPTION>
+				
+				          <OPTION VALUE="Jiwaji University, Gwalior" >Jiwaji University, Gwalior</OPTION>
+				
+				          <OPTION VALUE="Kachchh University, Bhuj-Kachchh" >Kachchh University, Bhuj-Kachchh</OPTION>
+				
+				          <OPTION VALUE="Kakatiya University, Warangal" >Kakatiya University, Warangal</OPTION>
+				
+				          <OPTION VALUE="Kalasalingam Academy of Research and Higher Education, Virudhunagar, Tamil Nadu" >Kalasalingam Academy of Research and Higher Education, Virudhunagar, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="Kalinga Institute of Industrial Technology(Deemed University), Bhubaneswar" >Kalinga Institute of Industrial Technology(Deemed University), Bhubaneswar</OPTION>
+				
+				          <OPTION VALUE="Kalinga University, Raipur, Chattisgarh" >Kalinga University, Raipur, Chattisgarh</OPTION>
+				
+				          <OPTION VALUE="Kalyani University, Kalyani" >Kalyani University, Kalyani</OPTION>
+				
+				          <OPTION VALUE="Kannada University, Kamalapura" >Kannada University, Kamalapura</OPTION>
+				
+				          <OPTION VALUE="Kannur University, Kannur" >Kannur University, Kannur</OPTION>
+				
+				          <OPTION VALUE="Karnataka State Open University, Mysore" >Karnataka State Open University, Mysore</OPTION>
+				
+				          <OPTION VALUE="Karnataka  University, Dharwad, Karnataka" >Karnataka  University, Dharwad, Karnataka</OPTION>
+				
+				          <OPTION VALUE="Karpagam Academy of Higher Education, Coimbatore, Tamil Nadu" >Karpagam Academy of Higher Education, Coimbatore, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="Karunya Institute of Technology and Sciences, Coimbatore, Tamil Nadu" >Karunya Institute of Technology and Sciences, Coimbatore, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="Kashmir University, Srinagar" >Kashmir University, Srinagar</OPTION>
+				
+				          <OPTION VALUE="Kerala University, Thiruvananthapuram" >Kerala University, Thiruvananthapuram</OPTION>
+				
+				          <OPTION VALUE="Kolhan University, Chaibasa, Jharkhand" >Kolhan University, Chaibasa, Jharkhand</OPTION>
+				
+				          <OPTION VALUE="Koneru Lakshmaiah Education Foundation Vaddeswaram Guntur, Andhra Pradesh" >Koneru Lakshmaiah Education Foundation Vaddeswaram Guntur, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Kota Open University, Kota" >Kota Open University, Kota</OPTION>
+				
+				          <OPTION VALUE="Krishna University, Machllipatanam, Andhra Pradesh" >Krishna University, Machllipatanam, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Kumaun University, Nainital" >Kumaun University, Nainital</OPTION>
+				
+				          <OPTION VALUE="Kurukshetra University, Kurukshetra" >Kurukshetra University, Kurukshetra</OPTION>
+				
+				          <OPTION VALUE="Kuvempu University, Shankaraghatta" >Kuvempu University, Shankaraghatta</OPTION>
+				
+				          <OPTION VALUE="Lalit Narayan Mithila University, Darbhanga" >Lalit Narayan Mithila University, Darbhanga</OPTION>
+				
+				          <OPTION VALUE="Laxmi Niwas Mittal(Lnm) Institute of Information Technology, Jaipur, Rajasthan" >Laxmi Niwas Mittal(Lnm) Institute of Information Technology, Jaipur, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Lingayas University, Faridabad, Haryana" >Lingayas University, Faridabad, Haryana</OPTION>
+				
+				          <OPTION VALUE="Lovely Professional University, Phagwara, Punjab" >Lovely Professional University, Phagwara, Punjab</OPTION>
+				
+				          <OPTION VALUE="Lucknow University, Lucknow" >Lucknow University, Lucknow</OPTION>
+				
+				          <OPTION VALUE="Madras University, Chennai" >Madras University, Chennai</OPTION>
+				
+				          <OPTION VALUE="Madurai Kamraj University, Madurai" >Madurai Kamraj University, Madurai</OPTION>
+				
+				          <OPTION VALUE="Magadh University, Bodh Gaya" >Magadh University, Bodh Gaya</OPTION>
+				
+				          <OPTION VALUE="Maharaja Krishnakumarsinji Bhavnagar University, Bhavnagar, Gujarat" >Maharaja Krishnakumarsinji Bhavnagar University, Bhavnagar, Gujarat</OPTION>
+				
+				          <OPTION VALUE="Maharaja Sayajirao University of Baroda, Vadodara" >Maharaja Sayajirao University of Baroda, Vadodara</OPTION>
+				
+				          <OPTION VALUE="Maharana Pratap University of Agriculture and Technology, Udaipur" >Maharana Pratap University of Agriculture and Technology, Udaipur</OPTION>
+				
+				          <OPTION VALUE="Maharishi Dayanand Saraswati University, Ajmer" >Maharishi Dayanand Saraswati University, Ajmer</OPTION>
+				
+				          <OPTION VALUE="Maharishi Dayanand  University, Rohtak" >Maharishi Dayanand  University, Rohtak</OPTION>
+				
+				          <OPTION VALUE="Maharishi Mahesh Yogi Vedic Vishwavidhyalaya, Jabalpur, Madhya Pradesh" >Maharishi Mahesh Yogi Vedic Vishwavidhyalaya, Jabalpur, Madhya Pradesh</OPTION>
+				
+				          <OPTION VALUE="Mahatma Gandhi Chitrakoot Gramoday Vishwavidyalaya, Chitrakoot, Satna, Madhya Pradesh" >Mahatma Gandhi Chitrakoot Gramoday Vishwavidyalaya, Chitrakoot, Satna, Madhya Pradesh</OPTION>
+				
+				          <OPTION VALUE="Mahatma Gandhi Kashi Vidyapeeth, Varanasi" >Mahatma Gandhi Kashi Vidyapeeth, Varanasi</OPTION>
+				
+				          <OPTION VALUE="Mahatma Gandhi University, Kottayam" >Mahatma Gandhi University, Kottayam</OPTION>
+				
+				          <OPTION VALUE="Mahatma Gandhi University of Medical Sciences and Technology, Jaipur" >Mahatma Gandhi University of Medical Sciences and Technology, Jaipur</OPTION>
+				
+				          <OPTION VALUE="Mahatma Jyoti Rao Phoole University Jaipur, Rajasthan" >Mahatma Jyoti Rao Phoole University Jaipur, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Mahavir Academy of Technology and Science(Mats), Raipur, Chattisgarh" >Mahavir Academy of Technology and Science(Mats), Raipur, Chattisgarh</OPTION>
+				
+				          <OPTION VALUE="Makhanlal Chturvedi Rashtriya Patrakarita National University of Journalism, Bhopal, Madhya Pradesh" >Makhanlal Chturvedi Rashtriya Patrakarita National University of Journalism, Bhopal, Madhya Pradesh</OPTION>
+				
+				          <OPTION VALUE="Malviya National Institute of Technology, (REC), Jaipur" >Malviya National Institute of Technology, (REC), Jaipur</OPTION>
+				
+				          <OPTION VALUE="Mangalayatan University, Aligarh, Uttar Pradesh" >Mangalayatan University, Aligarh, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Mangalore  University, Mangalore" >Mangalore  University, Mangalore</OPTION>
+				
+				          <OPTION VALUE="Manipal  Academy of Higher Education, Manipal" >Manipal  Academy of Higher Education, Manipal</OPTION>
+				
+				          <OPTION VALUE="Manipal University, Rajasthan" >Manipal University, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Manipur University, Imphal" >Manipur University, Imphal</OPTION>
+				
+				          <OPTION VALUE="Manonmaniam Sundarnar University, Thirunelveli" >Manonmaniam Sundarnar University, Thirunelveli</OPTION>
+				
+				          <OPTION VALUE="Maulana Azad National Institute  of Technology, (REC), Bhopal" >Maulana Azad National Institute  of Technology, (REC), Bhopal</OPTION>
+				
+				          <OPTION VALUE="Meenakshi Academy of Higher Education and Research, Virugambakkam, Chennai" >Meenakshi Academy of Higher Education and Research, Virugambakkam, Chennai</OPTION>
+				
+				          <OPTION VALUE="Mewar University, Chittorgarh, Rajasthan" >Mewar University, Chittorgarh, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="M.G. Gramodaya Vishwavidyalaya, Chitrakoot" >M.G. Gramodaya Vishwavidyalaya, Chitrakoot</OPTION>
+				
+				          <OPTION VALUE="M.G.R. Educational and Research Institute, Chennai" >M.G.R. Educational and Research Institute, Chennai</OPTION>
+				
+				          <OPTION VALUE="Mizoram University, Aizawal (Central University)" >Mizoram University, Aizawal (Central University)</OPTION>
+				
+				          <OPTION VALUE="M.J.P.Rohilkhand University, Bareilly" >M.J.P.Rohilkhand University, Bareilly</OPTION>
+				
+				          <OPTION VALUE="Modi Institute of Education and Research, Lakshmangarh, District Sikar" >Modi Institute of Education and Research, Lakshmangarh, District Sikar</OPTION>
+				
+				          <OPTION VALUE="Mohan Lal Sukhadia University, Udaipur" >Mohan Lal Sukhadia University, Udaipur</OPTION>
+				
+				          <OPTION VALUE="Monad University, Kasmabad, Uttar Pradesh" >Monad University, Kasmabad, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Mother Teresa Womens  University, Kodaikanal" >Mother Teresa Womens  University, Kodaikanal</OPTION>
+				
+				          <OPTION VALUE="Motilal Nehru Institute of Technology, (REC), Allahabad (U.P)" >Motilal Nehru Institute of Technology, (REC), Allahabad (U.P)</OPTION>
+				
+				          <OPTION VALUE="M.P.Bhoj University, Bhopal" >M.P.Bhoj University, Bhopal</OPTION>
+				
+				          <OPTION VALUE="Mumbai University, Mumbai" >Mumbai University, Mumbai</OPTION>
+				
+				          <OPTION VALUE="Mysore University, Mysore" >Mysore University, Mysore</OPTION>
+				
+				          <OPTION VALUE="Nagaland University, Nagaland (Central University)" >Nagaland University, Nagaland (Central University)</OPTION>
+				
+				          <OPTION VALUE="Nagarjuna University, Nagarjuna Nagar, Guntur" >Nagarjuna University, Nagarjuna Nagar, Guntur</OPTION>
+				
+				          <OPTION VALUE="Nagpur University, Nagpur" >Nagpur University, Nagpur</OPTION>
+				
+				          <OPTION VALUE="Nalanda Open University, Patna" >Nalanda Open University, Patna</OPTION>
+				
+				          <OPTION VALUE="Narendra Deo University of Agriculture and Technology, Faizabad" >Narendra Deo University of Agriculture and Technology, Faizabad</OPTION>
+				
+				          <OPTION VALUE="Narsee Monjee Institute of Management Studies, Mumbai" >Narsee Monjee Institute of Management Studies, Mumbai</OPTION>
+				
+				          <OPTION VALUE="National Institute of Foundry and forge Technology" >National Institute of Foundry and forge Technology</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, Delhi" >National Institute of Technology, Delhi</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, Manipur" >National Institute of Technology, Manipur</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, Patna" >National Institute of Technology, Patna</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, Raipur" >National Institute of Technology, Raipur</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Allahabad" >National Institute of Technology, (REC), Allahabad</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Calicut" >National Institute of Technology, (REC), Calicut</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Durgapur" >National Institute of Technology, (REC), Durgapur</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Goa" >National Institute of Technology, (REC), Goa</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Hamirpur" >National Institute of Technology, (REC), Hamirpur</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Jamshedpur (Jharkhand)" >National Institute of Technology, (REC), Jamshedpur (Jharkhand)</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Kurukshetra" >National Institute of Technology, (REC), Kurukshetra</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Puducherry" >National Institute of Technology, (REC), Puducherry</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Rourkela" >National Institute of Technology, (REC), Rourkela</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Surathkal" >National Institute of Technology, (REC), Surathkal</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, (REC), Warangal" >National Institute of Technology, (REC), Warangal</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, Silchar" >National Institute of Technology, Silchar</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, Srinagar, (Jammu and Kashmir)" >National Institute of Technology, Srinagar, (Jammu and Kashmir)</OPTION>
+				
+				          <OPTION VALUE="National Institute of Technology, Tiruchirapalli" >National Institute of Technology, Tiruchirapalli</OPTION>
+				
+				          <OPTION VALUE="Naval Institute of Aeronautical Technology" >Naval Institute of Aeronautical Technology</OPTION>
+				
+				          <OPTION VALUE="Netaji Subhash Open University, Kolkata" >Netaji Subhash Open University, Kolkata</OPTION>
+				
+				          <OPTION VALUE="Nilamber Pitamber University, Madininagar, Jharkhand" >Nilamber Pitamber University, Madininagar, Jharkhand</OPTION>
+				
+				          <OPTION VALUE="Nims University, Jaipur,  Rajasthan" >Nims University, Jaipur,  Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Nirma University of Science and Technology, Ahmedabad" >Nirma University of Science and Technology, Ahmedabad</OPTION>
+				
+				          <OPTION VALUE="Noida International University, Noida" >Noida International University, Noida</OPTION>
+				
+				          <OPTION VALUE="Noorul Islam Centre for Higher Education, Kanyakumari" >Noorul Islam Centre for Higher Education, Kanyakumari</OPTION>
+				
+				          <OPTION VALUE="North Bengal University, Raja Ram Mohanpur, Darjeeling" >North Bengal University, Raja Ram Mohanpur, Darjeeling</OPTION>
+				
+				          <OPTION VALUE="North Eastern Hill University, Shilong (Central University)" >North Eastern Hill University, Shilong (Central University)</OPTION>
+				
+				          <OPTION VALUE="North Eastern Regional Institute of Science and Technology, Itanagar" >North Eastern Regional Institute of Science and Technology, Itanagar</OPTION>
+				
+				          <OPTION VALUE="North Gujarat University, Patan" >North Gujarat University, Patan</OPTION>
+				
+				          <OPTION VALUE="North Maharashtra University, Jalgaon" >North Maharashtra University, Jalgaon</OPTION>
+				
+				          <OPTION VALUE="North Orissa University, Bhuabaneswar" >North Orissa University, Bhuabaneswar</OPTION>
+				
+				          <OPTION VALUE="Orissa University of Agriculture and Technology, Bhuabaneshwar" >Orissa University of Agriculture and Technology, Bhuabaneshwar</OPTION>
+				
+				          <OPTION VALUE="Osmania University, Hyderabad" >Osmania University, Hyderabad</OPTION>
+				
+				          <OPTION VALUE="Pacific Academy of Higher Education and Research University, Udaipur, Rajasthan" >Pacific Academy of Higher Education and Research University, Udaipur, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai" >Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai</OPTION>
+				
+				          <OPTION VALUE="Pandit Deendayal Petroleum University, Gandhinagar" >Pandit Deendayal Petroleum University, Gandhinagar</OPTION>
+				
+				          <OPTION VALUE="Patna University, Patna" >Patna University, Patna</OPTION>
+				
+				          <OPTION VALUE="Periyar University, Salem" >Periyar University, Salem</OPTION>
+				
+				          <OPTION VALUE="Pes University, Bangalore" >Pes University, Bangalore</OPTION>
+				
+				          <OPTION VALUE="Pondicherry University, Pondicherry (Central University)" >Pondicherry University, Pondicherry (Central University)</OPTION>
+				
+				          <OPTION VALUE="Ponnaiyah Ramajayam Institute of Science and Technology University, Thanjavur" >Ponnaiyah Ramajayam Institute of Science and Technology University, Thanjavur</OPTION>
+				
+				          <OPTION VALUE="Pratap University, Jaipur" >Pratap University, Jaipur</OPTION>
+				
+				          <OPTION VALUE="Pt. Ravishankar Shukla University, Raipur" >Pt. Ravishankar Shukla University, Raipur</OPTION>
+				
+				          <OPTION VALUE="Pune University, Pune" >Pune University, Pune</OPTION>
+				
+				          <OPTION VALUE="Punjab Agricultural University, Ludhiana" >Punjab Agricultural University, Ludhiana</OPTION>
+				
+				          <OPTION VALUE="Punjab Engineering College, Chandigarh" >Punjab Engineering College, Chandigarh</OPTION>
+				
+				          <OPTION VALUE="Punjabi  University, Patiala" >Punjabi  University, Patiala</OPTION>
+				
+				          <OPTION VALUE="Punjab Technical University, Jalandhar" >Punjab Technical University, Jalandhar</OPTION>
+				
+				          <OPTION VALUE="Punjab University, Chandigarh" >Punjab University, Chandigarh</OPTION>
+				
+				          <OPTION VALUE="Rabindra Bharati University, Kolkata" >Rabindra Bharati University, Kolkata</OPTION>
+				
+				          <OPTION VALUE="Rajasthan Agriculture University, Bikaner" >Rajasthan Agriculture University, Bikaner</OPTION>
+				
+				          <OPTION VALUE="Rajasthan Technical University, Kota" >Rajasthan Technical University, Kota</OPTION>
+				
+				          <OPTION VALUE="Rajasthan University, Jaipur" >Rajasthan University, Jaipur</OPTION>
+				
+				          <OPTION VALUE="Rajiv Gandhi Prodoyogiki Vishwavidyalaya, Bhopal" >Rajiv Gandhi Prodoyogiki Vishwavidyalaya, Bhopal</OPTION>
+				
+				          <OPTION VALUE="Rajiv Gandhi University of Knowledge Technologies, Hyderabad" >Rajiv Gandhi University of Knowledge Technologies, Hyderabad</OPTION>
+				
+				          <OPTION VALUE="Ranchi University, Ranchi" >Ranchi University, Ranchi</OPTION>
+				
+				          <OPTION VALUE="Rani Durgavati Vishwavidyalaya, Jabalpur" >Rani Durgavati Vishwavidyalaya, Jabalpur</OPTION>
+				
+				          <OPTION VALUE="Rashtrasant Tukdoji Maharaj Nagpur University, Nagpur, Maharashtra" >Rashtrasant Tukdoji Maharaj Nagpur University, Nagpur, Maharashtra</OPTION>
+				
+				          <OPTION VALUE="Ravenshaw University, Cuttak" >Ravenshaw University, Cuttak</OPTION>
+				
+				          <OPTION VALUE="R K University, Rajkot" >R K University, Rajkot</OPTION>
+				
+				          <OPTION VALUE="Sai Nath University, Ranchi" >Sai Nath University, Ranchi</OPTION>
+				
+				          <OPTION VALUE="Sambalpur University, Sambalpur" >Sambalpur University, Sambalpur</OPTION>
+				
+				          <OPTION VALUE="Sam Higginbottom Institute of Agriculture, Technology and Sciences, Allahabad, Uttar Pradesh" >Sam Higginbottom Institute of Agriculture, Technology and Sciences, Allahabad, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Sant Gadge Baba Amravati University, Amravati" >Sant Gadge Baba Amravati University, Amravati</OPTION>
+				
+				          <OPTION VALUE="Sant Longowal Insititute of Engineering and Technlogy, Longowal" >Sant Longowal Insititute of Engineering and Technlogy, Longowal</OPTION>
+				
+				          <OPTION VALUE="Sardar Patel University, Vallabh Vidyanagar" >Sardar Patel University, Vallabh Vidyanagar</OPTION>
+				
+				          <OPTION VALUE="Sardar Vallabhbhai National Institute of Technology, (REC), Surat" >Sardar Vallabhbhai National Institute of Technology, (REC), Surat</OPTION>
+				
+				          <OPTION VALUE="Sarguja University, Ambikapur, Chhattisgarh" >Sarguja University, Ambikapur, Chhattisgarh</OPTION>
+				
+				          <OPTION VALUE="Sathyabama Institute of Science and Technology, Chennai" >Sathyabama Institute of Science and Technology, Chennai</OPTION>
+				
+				          <OPTION VALUE="Saurashtra University, Rajkot" >Saurashtra University, Rajkot</OPTION>
+				
+				          <OPTION VALUE="Saveetha Institute of Medical and Technical Sciences Chennai" >Saveetha Institute of Medical and Technical Sciences Chennai</OPTION>
+				
+				          <OPTION VALUE="Shanmugha Arts, Science, Technology, Research and Academy (SASTRA), Thanjavur" >Shanmugha Arts, Science, Technology, Research and Academy (SASTRA), Thanjavur</OPTION>
+				
+				          <OPTION VALUE="Sharda University, Greater Noida" >Sharda University, Greater Noida</OPTION>
+				
+				          <OPTION VALUE="Shiksha of Anusandhan University, Bhubaneswar" >Shiksha of Anusandhan University, Bhubaneswar</OPTION>
+				
+				          <OPTION VALUE="Shivaji University, Kolhapur" >Shivaji University, Kolhapur</OPTION>
+				
+				          <OPTION VALUE="Shobit Institute of Engineering and Technology, Meerut" >Shobit Institute of Engineering and Technology, Meerut</OPTION>
+				
+				          <OPTION VALUE="Shoolini University of Biotechnology and Management Sciences, Solan" >Shoolini University of Biotechnology and Management Sciences, Solan</OPTION>
+				
+				          <OPTION VALUE="Shridhar University, Pilani" >Shridhar University, Pilani</OPTION>
+				
+				          <OPTION VALUE="Shri Jagdish Prasad Jhabarmal Tibrewala University, Jhunjhunu" >Shri Jagdish Prasad Jhabarmal Tibrewala University, Jhunjhunu</OPTION>
+				
+				          <OPTION VALUE="Shri Mata Vaishno Devi University, Jammu" >Shri Mata Vaishno Devi University, Jammu</OPTION>
+				
+				          <OPTION VALUE="Shri Ramaswaroop Memorial University, Lucknow" >Shri Ramaswaroop Memorial University, Lucknow</OPTION>
+				
+				          <OPTION VALUE="Sidhu Kanhu University, Dumka" >Sidhu Kanhu University, Dumka</OPTION>
+				
+				          <OPTION VALUE="Sikkim Manipal University of Distance Education" >Sikkim Manipal University of Distance Education</OPTION>
+				
+				          <OPTION VALUE="Sikkim-Manipal University of Health, Medical and Technological Sciences, Gangtok" >Sikkim-Manipal University of Health, Medical and Technological Sciences, Gangtok</OPTION>
+				
+				          <OPTION VALUE="Singhaniya University, Jhunjhunu, Rajasthan" >Singhaniya University, Jhunjhunu, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="Sir Padmapat Singhania University  Bhatewar, Udaipur" >Sir Padmapat Singhania University  Bhatewar, Udaipur</OPTION>
+				
+				          <OPTION VALUE="Smt. Nathibai Damodar Thackersey Womens University, Mumbai" >Smt. Nathibai Damodar Thackersey Womens University, Mumbai</OPTION>
+				
+				          <OPTION VALUE="Solapur University, Solapur" >Solapur University, Solapur</OPTION>
+				
+				          <OPTION VALUE="South Gujarat University, Surat" >South Gujarat University, Surat</OPTION>
+				
+				          <OPTION VALUE="Sri Chandrasekharendra Saraswathi Vishwa Mahavidyalaya, Kancheepuram" >Sri Chandrasekharendra Saraswathi Vishwa Mahavidyalaya, Kancheepuram</OPTION>
+				
+				          <OPTION VALUE="Sri Krishnadevaraya University, Anantapur" >Sri Krishnadevaraya University, Anantapur</OPTION>
+				
+				          <OPTION VALUE="Sri Padmavati Mahila Vishwavidyalayam, Tirupati" >Sri Padmavati Mahila Vishwavidyalayam, Tirupati</OPTION>
+				
+				          <OPTION VALUE="Sri Sai University, Palampur, Himachal Pradesh" >Sri Sai University, Palampur, Himachal Pradesh</OPTION>
+				
+				          <OPTION VALUE="Sri Sathya Sai Institute of  Higher Learning, Prasanthinilayam, Anantapur" >Sri Sathya Sai Institute of  Higher Learning, Prasanthinilayam, Anantapur</OPTION>
+				
+				          <OPTION VALUE="Sri Siddhartha Academy of Higher Education, Tumkur, Karnataka" >Sri Siddhartha Academy of Higher Education, Tumkur, Karnataka</OPTION>
+				
+				          <OPTION VALUE="Sri Venkateswara University, Tirupati" >Sri Venkateswara University, Tirupati</OPTION>
+				
+				          <OPTION VALUE="Srm Institue of Sciences and Technology, Chennai, Tamil Nadu" >Srm Institue of Sciences and Technology, Chennai, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="S.R.M Institute of Science and Technology, West Mambalam, Chennai" >S.R.M Institute of Science and Technology, West Mambalam, Chennai</OPTION>
+				
+				          <OPTION VALUE="St Peters Institute of Higher Education and Research, Chennai, Tamil Nadu" >St Peters Institute of Higher Education and Research, Chennai, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="Suresh Gyan Vihar University, Jaipur" >Suresh Gyan Vihar University, Jaipur</OPTION>
+				
+				          <OPTION VALUE="Swami Ramanand Teerth Marathwada University, Nanded" >Swami Ramanand Teerth Marathwada University, Nanded</OPTION>
+				
+				          <OPTION VALUE="Swami Vivekanand Subharti University, Meerut, Uttar Pradesh" >Swami Vivekanand Subharti University, Meerut, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Symbiosis International University,Pune, Maharashtra" >Symbiosis International University,Pune, Maharashtra</OPTION>
+				
+				          <OPTION VALUE="Tamilnadu Agricultural University, Coimbatore, Tamilnadu" >Tamilnadu Agricultural University, Coimbatore, Tamilnadu</OPTION>
+				
+				          <OPTION VALUE="Tamilnadu Open University, Directorate of Technical Education, Chennai, Tamil Nadu" >Tamilnadu Open University, Directorate of Technical Education, Chennai, Tamil Nadu</OPTION>
+				
+				          <OPTION VALUE="Tamil University, Thanjavur" >Tamil University, Thanjavur</OPTION>
+				
+				          <OPTION VALUE="Tata Institute of Fundamental Research, Mumbai" >Tata Institute of Fundamental Research, Mumbai</OPTION>
+				
+				          <OPTION VALUE="Techno Global University, Meghalaya" >Techno Global University, Meghalaya</OPTION>
+				
+				          <OPTION VALUE="Teerthanker Mahaveer University, Moradabad, Uttar Pradesh" >Teerthanker Mahaveer University, Moradabad, Uttar Pradesh</OPTION>
+				
+				          <OPTION VALUE="Tezpur University, Tezpur.  (Central University)" >Tezpur University, Tezpur.  (Central University)</OPTION>
+				
+				          <OPTION VALUE="Thapar Institute of Engineering and Technology(Deemed University), Patiala" >Thapar Institute of Engineering and Technology(Deemed University), Patiala</OPTION>
+				
+				          <OPTION VALUE="Thapar Institute of  Engineering and Technology, Patiala" >Thapar Institute of  Engineering and Technology, Patiala</OPTION>
+				
+				          <OPTION VALUE="The Gandhigram Rural Institute, Gandhigram, Tamilnadu" >The Gandhigram Rural Institute, Gandhigram, Tamilnadu</OPTION>
+				
+				          <OPTION VALUE="The LNM Institute of Information Technology(Deemed University), Jaipur" >The LNM Institute of Information Technology(Deemed University), Jaipur</OPTION>
+				
+				          <OPTION VALUE="Thiruvalluvar University, fort, Vellore" >Thiruvalluvar University, fort, Vellore</OPTION>
+				
+				          <OPTION VALUE="Tilak Maharashtra Vidyapeeth, Pune" >Tilak Maharashtra Vidyapeeth, Pune</OPTION>
+				
+				          <OPTION VALUE="T.M. Bhagalpur University, Bhagalpur" >T.M. Bhagalpur University, Bhagalpur</OPTION>
+				
+				          <OPTION VALUE="Tripura University, Agartala" >Tripura University, Agartala</OPTION>
+				
+				          <OPTION VALUE="Tumkur University, Tumkur, Karnataka" >Tumkur University, Tumkur, Karnataka</OPTION>
+				
+				          <OPTION VALUE="University of Bikaner, Bikaner" >University of Bikaner, Bikaner</OPTION>
+				
+				          <OPTION VALUE="University of Kota, Kota, Rajasthan" >University of Kota, Kota, Rajasthan</OPTION>
+				
+				          <OPTION VALUE="University of Petroleum and Energy Studies, Dehradun, Uttrakhand" >University of Petroleum and Energy Studies, Dehradun, Uttrakhand</OPTION>
+				
+				          <OPTION VALUE="Utkal University, Bhubaneswar" >Utkal University, Bhubaneswar</OPTION>
+				
+				          <OPTION VALUE="Uttar Pradesh Technical University, Sitapur Road, Lucknow" >Uttar Pradesh Technical University, Sitapur Road, Lucknow</OPTION>
+				
+				          <OPTION VALUE="Uttrakhand Technical University, Dehradun, Uttrakhand" >Uttrakhand Technical University, Dehradun, Uttrakhand</OPTION>
+				
+				          <OPTION VALUE="Veer Bahadur Singh Purvanchal University, Jaunpur" >Veer Bahadur Singh Purvanchal University, Jaunpur</OPTION>
+				
+				          <OPTION VALUE="Veer Kunwar Singh University, Arrah" >Veer Kunwar Singh University, Arrah</OPTION>
+				
+				          <OPTION VALUE="Veer Surendra Sai University of Technology, Burla, Orissa" >Veer Surendra Sai University of Technology, Burla, Orissa</OPTION>
+				
+				          <OPTION VALUE="Vellore Institute of Technology, Vellore" >Vellore Institute of Technology, Vellore</OPTION>
+				
+				          <OPTION VALUE="Vidya Sagar University, Midnapore" >Vidya Sagar University, Midnapore</OPTION>
+				
+				          <OPTION VALUE="Vignans Foundation for Science, Technology and Research, Guntur, Andhra Pradesh" >Vignans Foundation for Science, Technology and Research, Guntur, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Vikram Simhapuri University, Nellore, Andhra Pradesh" >Vikram Simhapuri University, Nellore, Andhra Pradesh</OPTION>
+				
+				          <OPTION VALUE="Vikram University, Ujjain" >Vikram University, Ujjain</OPTION>
+				
+				          <OPTION VALUE="Vinayaka Missions University, Salem" >Vinayaka Missions University, Salem</OPTION>
+				
+				          <OPTION VALUE="Vinoba Bhave University, Hazaribagh" >Vinoba Bhave University, Hazaribagh</OPTION>
+				
+				          <OPTION VALUE="Vir Narmad South Gujarat University, Surat, Gujarat" >Vir Narmad South Gujarat University, Surat, Gujarat</OPTION>
+				
+				          <OPTION VALUE="Vishwa Bharati University, Shanti Niketan  (Central University)" >Vishwa Bharati University, Shanti Niketan  (Central University)</OPTION>
+				
+				          <OPTION VALUE="Visvesvaraya National Institute of Technology, (REC), Nagpur" >Visvesvaraya National Institute of Technology, (REC), Nagpur</OPTION>
+				
+				          <OPTION VALUE="Visveswaraiah Technological University, Belgaum" >Visveswaraiah Technological University, Belgaum</OPTION>
+				
+				          <OPTION VALUE="West Bengal University of Technology, Kolkata" >West Bengal University of Technology, Kolkata</OPTION>
+				
+				          <OPTION VALUE="Women University, Bijapur" >Women University, Bijapur</OPTION>
+				
+				          <OPTION VALUE="Yashwant Rao Chavan Maharashtra Open University, Nashik" >Yashwant Rao Chavan Maharashtra Open University, Nashik</OPTION>
+				
+				          <OPTION VALUE="Ymca University of Science and Technology, Faridabad, Haryana" >Ymca University of Science and Technology, Faridabad, Haryana</OPTION>
+				
+				          <OPTION VALUE="Yogi Vemana University, Kadapa, Andhra Pradesh" >Yogi Vemana University, Kadapa, Andhra Pradesh</OPTION>
+				
+				<OPTION VALUE="Other University" >Other University</OPTION>
+					                </select>
+                                    </div>
+
+                                 
+                                
+                                <div class="radio-buttons-2">
+									<p> Course Type :</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="ctype" id="ctype"value="semesterwise">Semesterwise
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="ctype" id="ctype"value="Yearwise">Yearwise
+					                </label>
+                                     <label class="radio-inline">
+					                	<input type="radio" name="ctype" id="ctype"value="Mix of year and semester">Mix of year and semester
+					                </label>
+					                
+								</div><br /><br />
+                               ( <Font color=#fff>Note :<I> If you have been evaluated in first year of degree course on annual
+             basis and subsequently on semester basis, please select </I><B>Course Type</B>
+	     <I>as Mix of Year and Semester.</I></font>)<br /><br />
+
+
+                                <div class="radio-buttons-2">
+									<p> Score as :</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="score" id="score"value="Total Mark">Total Marks
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="score"id="score" value="CGPA">CGPA
+					                </label>
+                                     <label class="radio-inline">
+					                	<input type="radio" name="score" id="score" value="Mix of year and semester">Mix of year and semester
+					                </label>
+					                
+								</div><br />
+
+                                	<div class="selects-1">
+									<p>Month and Year of Pass :</p>
+					                <select class="form-control" name="pmonth" id="pmonth">
+					                	 <option VALUE="Month" Selected >Month</option> 
+			     
+			                                 <OPTION VALUE=Jan >Jan</OPTION>
+			     
+			                                <OPTION VALUE=Feb >Feb</OPTION>
+			     
+			                                <OPTION VALUE=Mar >Mar</OPTION>
+			     
+			                                <OPTION VALUE=Apr >Apr</OPTION>
+			     
+			                                <OPTION VALUE=May >May</OPTION>
+			     
+			                                <OPTION VALUE=Jun >Jun</OPTION>
+			     
+			                                <OPTION VALUE=Jul >Jul</OPTION>
+			     
+			                                <OPTION VALUE=Aug >Aug</OPTION>
+			     
+			                                <OPTION VALUE=Sep >Sep</OPTION>
+			     
+			                                <OPTION VALUE=Oct >Oct</OPTION>
+			     
+			                                <OPTION VALUE=Nov >Nov</OPTION>
+			     
+			                                <OPTION VALUE=Dec >Dec</OPTION>
+			     
+					                </select>
+                                        </div>
+                                        <div class="selects-1">
+
+                                         <select class="form-control" name="pyear" id="pyear">
+                        	                <option VALUE="Year" Selected>Year</option>
+			     
+			     		                      <OPTION value=2017  >2017</OPTION>
+			     
+			     		                       <OPTION value=2016  >2016</OPTION>
+			     
+			     		                          <OPTION value=2015  >2015</OPTION>
+			                        
+			     		                       <OPTION value=2014  >2014</OPTION>
+			        
+			     		                      <OPTION value=2013  >2013</OPTION>
+			     
+			     		                      <OPTION value=2012  >2012</OPTION>
+			     
+			     		                      <OPTION value=2011  >2011</OPTION>
+			     
+			     		                      <OPTION value=2010  >2010</OPTION>
+			     
+			     		                      <OPTION value=2009  >2009</OPTION>
+			     
+			     		                     <OPTION value=2008  >2008</OPTION>
+			     
+			     		                     <OPTION value=2007  >2007</OPTION>
+			     
+			     		                     <OPTION value=2006  >2006</OPTION>
+			     
+			     		                     <OPTION value=2005  >2005</OPTION>
+			     
+			     		                     <OPTION value=2004  >2004</OPTION>
+			     
+			     		                     <OPTION value=2003  >2003</OPTION>
+			     
+			     		                     <OPTION value=2002  >2002</OPTION>
+			     
+			     		                     <OPTION value=2001  >2001</OPTION>
+			     
+			     		                     <OPTION value=2000  >2000</OPTION>
+			     
+			     		                     <OPTION value=1999  >1999</OPTION>
+			     
+			     		                     <OPTION value=1998  >1998</OPTION>
+			     
+			     		                     <OPTION value=1997  >1997</OPTION>
+			     
+			     		                     <OPTION value=1996  >1996</OPTION>
+			     
+			     		                     <OPTION value=1995  >1995</OPTION>
+			     
+			     		                     <OPTION value=1994  >1994</OPTION>
+			     
+			     		                     <OPTION value=1993  >1993</OPTION>
+			     
+			     		                     <OPTION value=1992  >1992</OPTION>
+			     
+			     		                     <OPTION value=1991  >1991</OPTION>
+			     
+			     		                     <OPTION value=1990  >1990</OPTION>
+			     
+			     		                     <OPTION value=1989  >1989</OPTION>
+			     
+			     		                     <OPTION value=1988  >1988</OPTION>
+			     
+			     		                     <OPTION value=1987  >1987</OPTION>
+			     
+			     		                     <OPTION value=1986  >1986</OPTION>
+			     
+			     </select>
+								</div>
+
+                                <div class="selects-1">
+									<p>Class/Division Obtained :</p>
+					                <select class="form-control" name="class" id="class1">
+					                	 <option VALUE="NIL" Selected >Select Class</option> 
+			     
+			                                 <OPTION VALUE=1st >1st</OPTION>
+			     
+			                                
+			     
+					                </select>
+                                        </div><br />
+
+                                 <div class="radio-buttons-1">
+				                	<p>Rank in University :</p>
+					                <label class="radio-inline">
+					                	<input type="radio" name="rank"id="rank" value="1st">1st
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="rank" id="rank" value="2nd">2nd
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="rank"id="rank" value="3rd">3rd
+					                </label>
+					                <label class="radio-inline">
+					                	<input type="radio" name="rank" id="rank"value="Other than 1st, 2nd and 3rd">Other than 1st, 2nd and 3rd
+					                </label>
+								</div>
+
+	            				
+	            				<br>
+	            				<button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+	            				<button type="button" class="btn btn-next" onclick="step4();">Next <i class="fa fa-angle-right"></i></button>
+	            			</fieldset>
+	            			
+	            			<fieldset>
+	            				<h4>Course Duration :<span class="step">(Step 5 / 7)</span></h4>
+
+                                <div class="selects-2">
+									<p>Full Duration of Course :</p>
+					                <select class="form-control" name="duration" id="duration">
+					                	<OPTION value="7" >7</OPTION>
+                                        <OPTION value="8" selected>8</OPTION>
+                                        <OPTION value="9" >9</OPTION>
+                                        <OPTION value="10" >10</OPTION>
+					                </select> Semesters<br /><br />
+
+                                     <font color=red><b>(This information must indicate total duration of course for award of degree)</b></font>
+								</div>
+	            				
+	            				<br>
+	            				<button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+	            				<button type="button" class="btn btn-next"onclick="step5();">Next <i class="fa fa-angle-right"></i></button>
+	            			</fieldset>
+	            			
+	            			<fieldset>
+	            				<h4>Why You Want To Join <span class="step">(Step 6 / 7)</span></h4>
+                               <font color=white> <b>Qualifying Exam:</b></font><br /><br />
+	            				
+                                <table border=1 ID="Table8333" CELLSPACING=0 CELLPADDING=2 >
+		<TR>
+			<TD > Semester</TD>
+			<TD> Marks<br> Obtained</TD>
+			<TD nowrap> Out of</TD>
+			<TD> Total<br>Marks</TD>
+		</TR>
+
+			<TD align="right">1</TD>
+			<TD><input type="text" name="marks1_10"  id="m1"value="" size="6" maxlength="6"></TD>
+			<TD>out of</TD>
+			<TD><input type="text" name="marks1_total10" id="mt1" value="" size="6" maxlength="6"></TD>
+			</TR>
+
+			<TD align="right">2</TD>
+			<TD><input type="text"name="marks1_20" id="m2"value="" size="6" maxlength="6"></TD>
+			<TD>out of</TD>
+			<TD><input type="text" name="marks1_total20" id="mt2"value="" size="6" maxlength="6"></TD>
+			</TR>
+
+			<TD align="right">3</TD>
+			<TD><input type="text" name="marks1_30"id="m3" value="" size="6" maxlength="6"></TD>
+			<TD>out of</TD>
+			<TD><input type="text" name="marks1_total30" id="mt3" value="" size="6" maxlength="6"></TD>
+			</TR>
+
+			<TD align="right">4</TD>
+			<TD><input type="text" name="marks1_40" id="m4"value="" size="6" maxlength="6"></TD>
+			<TD>out of</TD>
+			<TD><input type="text" name="marks1_total40" id="mt4"value="" size="6" maxlength="6"></TD>
+			</TR>
+
+			<TD align="right">5</TD>
+			<TD><input type="text" name="marks1_50" id="m5" value="" size="6" maxlength="6"></TD>
+			<TD>out of</TD>
+			<TD><input type="text" name="marks1_total50"id="mt5" value="" size="6" maxlength="6>"</TD>
+			</TR>
+
+			<TD align="right">6</TD>
+			<TD><input type="text" name="marks1_60" id="m6" value="" size="6" maxlength="6"></TD>
+			<TD>out of</TD>
+			<TD><input type="text" name="marks1_total60" id="mt6" value="" size="6" maxlength="6"></TD>
+			</TR>
+
+			<TD align="right">7</TD>
+			<TD><input type="text" name="marks1_70"id="m7" value="" size="6" maxlength="6"></TD>
+			<TD>out of</TD>
+			<TD><input type="text" name="marks1_total70" id="mt7" value="" size="6" maxlength="6"></TD>
+			</TR>
+
+			<TD align="right">8</TD>
+			<TD><input type="text" name="marks1_80" id="m8" value="" size="6" maxlength="6"></TD>
+			<TD>out of</TD>
+			<TD><input type="text" name="marks1_total80" id="mt8" value="" size="6" maxlength="6"></TD>
+			</TR>
+</table>
+                                <br /><br />
+ <center><b>Intermediate/10+2/Pre-University/Diploma Exam:</b></center>       <br /><br />                    
+                                <Table>
+             
+             
+             <TR>
+                   <TD>
+                         <TABLE ID="Table83" BORDER="1" CELLSPACING="2" CELLPADDING="2">
+                                <TR>
+                                        <TH><FONT COLOR='#fff'>Board/University</FONT></TH>
+                                        <TH><FONT COLOR='#fff'>Month and Year of Pass</FONT></TH>
+                                        <TH><FONT COLOR='#fff'>Marks in %</FONT></TH>
+                                </TR>
+                                <TR>
+                                          <TD><INPUT TYPE="TEXT" NAME="Univ2" id="uni"VALUE="" SIZE="20" MAXLENGTH="50"></TD>
+					  <TD><SELECT class="form-control" NAME="pmonth2" id="pmonth">
+					<OPTION VALUE="Month" selected >Month</Option>
+                                	
+                                                    <OPTION VALUE='Jan'  >Jan</Option>
+                               		
+                                                    <OPTION VALUE='Feb'  >Feb</Option>
+                               		
+                                                    <OPTION VALUE='Mar'  >Mar</Option>
+                               		
+                                                    <OPTION VALUE='Apr'  >Apr</Option>
+                               		
+                                                    <OPTION VALUE='May'  >May</Option>
+                               		
+                                                    <OPTION VALUE='Jun'  >Jun</Option>
+                               		
+                                                    <OPTION VALUE='Jul'  >Jul</Option>
+                               		
+                                                    <OPTION VALUE='Aug'  >Aug</Option>
+                               		
+                                                    <OPTION VALUE='Sep'  >Sep</Option>
+                               		
+                                                    <OPTION VALUE='Oct'  >Oct</Option>
+                               		
+                                                    <OPTION VALUE='Nov'  >Nov</Option>
+                               		
+                                                    <OPTION VALUE='Dec'  >Dec</Option>
+                               			
+                         		</SELECT>
+                          <br /><SELECT class="form-control" NAME="pyear" id="pyear">
+                                                     <OPTION VALUE="Year" selected >Year</OPTION>
+				        
+                                                    <OPTION VALUE='2015'  >2015</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2014'  >2014</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2013'  >2013</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2012'  >2012</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2011'  >2011</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2010'  >2010</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2009'  >2009</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2008'  >2008</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2007'  >2007</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2006'  >2006</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2005'  >2005</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2004'  >2004</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2003'  >2003</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2002'  >2002</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2001'  >2001</OPTION>");
+			 	        
+                                                    <OPTION VALUE='2000'  >2000</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1999'  >1999</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1998'  >1998</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1997'  >1997</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1996'  >1996</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1995'  >1995</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1994'  >1994</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1993'  >1993</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1992'  >1992</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1991'  >1991</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1990'  >1990</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1989'  >1989</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1988'  >1988</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1987'  >1987</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1986'  >1986</OPTION>");
+			 	        
+                                                    <OPTION VALUE='1985'  >1985</OPTION>");
+			 	        
+                                        </SELECT>
+					 </TD><br />
+					 <TD>
+                                                <INPUT TYPE="TEXT" NAME="bmark" id="bmark" VALUE="" SIZE="6" MAXLENGTH="6">
+                                           </TD>
+                                </TR>
+                               </TABLE>
+                    </TD>
+             </TR>
+        </Table>
+	            				
+                                
+                                
+               
+	                            
+                                <br>
+	            				<button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+                                                	<button type="button" class="btn btn-next" onclick="step6();">Next <i class="fa fa-angle-right"></i></button>
+	            			</fieldset>
+	            			
+	            			<fieldset>
+	            				<h4>Other Form Elements <span class="step">(Step 7 / 7)</span></h4>
+				               <br>
+
+                                <font color=black size=+2><b>:</b></font><font size=+1> Please verify the information you have entered shown below. 
+If correct, please submit your application form or else <font color=Red size=+1>Go to Previos Step(s)</font> 
+and make corrections if any.</font>
+	            				<br>
+	            				<button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+	            				<button type="submit" class="btn">Submit</button>
+	            			</fieldset>
+	                    	
+	                    </form>
+	                    
+	                </div>
+	            </div>
+			</div>
+		</div>
+    <center>          <p> <span id='l'></span>
+        <center><h1><span style="color:#18a367" id="h"></span></h1></center>
+          <center><h2><span style="color:#18a367" id="h1"></span></h2></center>  
+                    <span id='v'></span>
+                    
+                    <span id='d'></span></p>
+                  <p> <span id='v1'></span>
+                    <span id='d1'></span></p>
+                <p> <span id='v2'></span>
+                    <span id='d2'></span></p>
+                <p> <span id='v3'></span>
+                    <span id='d3'></span></p>
+                <p> <span id='v4'></span>
+                    <span id='d4'></span></p>
+                
+                <p> <span id='v5'></span>
+                    <span id='d5'></span></p>
+                
+                <p> <span id='v6'></span>
+                    <span id='d6'></span></p>
+                
+                <p> <span id='v7'></span>
+                    <span id='d7'></span></p>
+                
+                <p>
+                    <span id='v8'></span>
+                    <span id='d8'></span></p>
+                
+                <p><span id='l2'></span>
+                <center><h2><span style="color:#18a367" id="h2"></span></h2></center>
+                    <span id='v9'></span>
+                    <span id='d9'></span>
+                    </p>
+                    <p>    <span id='v10'></span>
+                    <span id='d10'></span>
+                    <span id='r'></span>
+                    <span id='d101'></span>
+                    <span id='r1'></span></p>
+                    
+                <p> <span id='v11'></span>
+                    <span id='d11'></span></p>
+                <p> <span id='v12'></span>
+                    
+                    <span id='d12'></span></p>
+                <p> <span id='v13'></span>
+                    <span id='d13'></span></p>
+                <p> <span id='v14'></span>
+                    <span id='d14'></span></p>
+                
+                <p> <span id='v15'></span>
+                    <span id='d15'></span></p>
+                <p> <span id='v16'></span>
+                    <span id='d16'></span></p>
+                <p> <span id='v17'></span>
+                    <span id='d17'></span></p>
+                 <p> <span id='v18'></span>
+                    <span id='d18'></span></p>
+                 <p> <span id='l3'></span>
+                      <center><h2><span style="color:#18a367" id="h3"></span></h2></center>
+                    <span id='v19'></span>
+                    <span id='d19'></span></p>
+                 <p> <span id='v20'></span>
+                    <span id='d20'></span></p>
+                 <p> <span id='v21'></span>
+                    <span id='d21'></span></p>
+                 <p> <span id='l4'></span>
+                      <center><h2><span style="color:#18a367" id="h4"></span></h2></center>
+                    <span id='v22'></span>
+                    <span id='d22'></span></p>
+                 <p> <span id='v23'></span>
+                    <span id='d23'></span></p>
+                 <p> <span id='v24'></span>
+                    <span id='d24'></span></p>
+                 <p> <span id='v25'></span>
+                    <span id='d25'></span>
+                 <span id='d251'></span></p>
+                <p> <span id='v26'></span>
+                    <span id='d26'></span></p>
+                <p> <span id='v27'></span>
+                    <span id='d27'></span></p>
+                <p> <span id='l5'></span>
+                     <center><h2><span style="color:#18a367" id="h5"></span></h2></center>
+                    <span id='v28'></span>
+                    <span id='d28'></span></p>
+                <p> <span id='l6'></span></p>
+                 <center><h2><span style="color:#18a367" id="h6"></span></h2></center>
+       <table border=1 ID="Table8333" CELLSPACING=0 CELLPADDING=2 >
+                <TR>
+                    <TD ><span id='v29'></span></TD>
+			<TD> <span id='v30'></span></TD>
+			<TD nowrap><span id='v301'></span></TD>
+			<TD><span id='v31'></span></TD>
+                </TR>
+
+                <TR><TD align="center"><span id='v32'></span></TD>
+			<TD align="center"><span id='d32'></span></TD>
+			<TD align="center"><span id='v322'></span></TD>
+			<TD align="center"><span id='d321'></span></TD>
+			</TR>
+
+                        <TR><TD align="center"><span id='v33'></span></TD>
+			<TD align="center"><span id='d33'></span></TD>
+			<TD align="center"><span id='v332'></span></TD>
+			<TD align="center"><span id='d331'></span></TD>
+			</TR>
+
+                        <TR>	<TD align="center"><span id='v34'></span></TD>
+			<TD align="center"><span id='d34'></span></TD>
+			<TD align="center"><span id='v342'></span></TD>
+			<TD align="center"><span id='d341'></span></TD>
+			</TR>
+
+                        <TR><TD align="center"><span id='v35'></span></TD>
+			<TD align="center"><span id='d35'></span></TD>
+			<TD align="center"><span id='v352'></span></TD>
+			<TD align="center"><span id='d351'></span></TD>
+			</TR>
+
+                        <TR><TD align="center"><span id='v36'></span></TD>
+			<TD align="center"><span id='d36'></span></TD>
+			<TD align="center"><span id='v362'></span></TD>
+			<TD align="center"><span id='d361'></span></TD>
+			</TR>
+
+                        <TR><TD align="center"><span id='v37'></span></TD>
+			<TD align="center"><span id='d37'></span></TD>
+			<TD align="center"><span id='v372'></span></TD>
+			<TD align="center"><span id='d371'></span></TD>
+			</TR>
+
+                        <TR><TD align="center"><span id='v38'></span></TD>
+			<TD align="center"><span id='d38'></span></TD>
+			<TD align="center"><span id='v382'></span></TD>
+			<TD align="center"><span id='d381'></span></TD>
+			</TR>
+
+                        <TR><TD align="center"><span id='v39'></span></TD>
+			<TD align="center"><span id='d39'></span></TD>
+			<TD align="center"><span id='v392'></span></TD>
+			<TD align="center"><span id='d391'></span></TD>
+			</TR>
+        </table>
+                     
+                <p></p><p>
+                    <span id='v40'></span></p>
+                
+                <p>             
+                    <span id='v41'></span>
+                    <span id='d41'></span>
+                    </p>
+                <p> <span id='v42'></span>
+                    <span id='d42'></span>
+                    <span id='d421'></span></p>
+                   <p>             
+                    <span id='v43'></span>
+                    <span id='d43'></span>
+                    </p>
+                    <p> <span id='l6'></span></p></center>
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+        <script language='javascript' type='text/javascript'>
+    function check(input) {
+        if (input.value != document.getElementById('password').value) {
+            input.setCustomValidity('Password Must be Matching.');
+        } else {
+            // input is valid -- reset the error message
+            input.setCustomValidity('');
+        }
+    }
+</script>
+
+    </body>
+
+</html>
